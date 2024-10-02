@@ -1,0 +1,72 @@
+2024/09/27 14:57:01 ERROR: Profile request returned non-OK status: 200
+2024/09/27 14:57:44 ERROR: Funds request returned non-OK status: 200
+2024/09/27 14:57:58 ERROR: Profile request returned non-OK status: 200
+2024/09/27 14:59:01 ERROR: Profile request returned non-OK status: 200
+2024/09/27 14:59:17 ERROR: Profile request returned non-OK status: 200
+2024/09/27 14:59:17 ERROR: Funds request returned non-OK status: 200
+2024/09/27 14:59:17 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 14:59:17 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:00:10 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:00:20 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:00:28 ERROR: Profile request returned non-OK status: 200
+2024/09/27 15:00:28 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:00:28 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:00:28 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:00:38 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:00:46 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:01:09 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:04:10 ERROR: Profile request returned non-OK status: 200
+2024/09/27 15:04:17 ERROR: Profile request returned non-OK status: 200
+2024/09/27 15:04:26 ERROR: Profile request returned non-OK status: 200
+2024/09/27 15:04:32 ERROR: Profile request returned non-OK status: 200
+2024/09/27 15:04:32 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:04:32 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:04:32 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:07:37 ERROR: Profile request returned non-OK status: 200
+2024/09/27 15:07:37 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:07:37 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:07:37 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:34:51 ERROR: Profile request returned non-OK status: 200, body: {
+                    "data": {
+                        "client_id": "12345",
+                        "name": "Test User"
+                    },
+                    "status": "ok"
+                }
+2024/09/27 15:34:57 ERROR: Profile request returned non-OK status: 200, body: {
+                    "data": {
+                        "client_id": "12345",
+                        "name": "Test User"
+                    },
+                    "status": "ok"
+                }
+2024/09/27 15:35:21 ERROR: Profile request returned non-OK status: 200, body: {
+                    "data": {
+                        "client_id": "12345",
+                        "name": "Test User"
+                    },
+                    "status": "ok"
+                }
+2024/09/27 15:35:21 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:35:21 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:35:21 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:37:57 ERROR: Profile request returned non-OK status: 200, body: {
+                    "data": {
+                        "client_id": "12345",
+                        "name": "Test User"
+                    },
+                    "status": "ok"
+                }
+2024/09/27 15:37:57 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:37:57 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:37:57 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:40:30 ERROR: Profile request returned non-OK status: 200, body: {
+                    "data": {
+                        "client_id": "12345",
+                        "name": "Test User"
+                    },
+                    "status": "ok"
+                }
+2024/09/27 15:40:30 ERROR: Funds request returned non-OK status: 200
+2024/09/27 15:40:30 ERROR: Error fetching quotes for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/quotes/?symbols=NSE:SBIN-EQ": dial tcp: lookup mock-api.fyers.in: no such host
+2024/09/27 15:40:30 ERROR: Error fetching historical data for symbol: NSE:SBIN-EQ, error: Get "https://mock-api.fyers.in/data/history?symbol=NSE:SBIN-EQ&resolution=30&date_format=1&range_from=2021-01-01&range_to=2021-01-02&cont_flag=1": dial tcp: lookup mock-api.fyers.in: no such host
