@@ -20,6 +20,8 @@ func TestPlaceLimitOrder(t *testing.T) {
 	// 	},
 	// }
 	// client := MockClientWithTransport(mockTransport)
+
+	// Pass nil as transport if you don't need to mock HTTP responses in this test
 	client := MockClientWithTransport(nil)
 
 	order := models.OrderRequest{

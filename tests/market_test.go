@@ -61,6 +61,8 @@ func TestGetHistoricalData(t *testing.T) {
 	// 	},
 	// }
 	// client := MockClientWithTransport(mockTransport)
+
+	// Pass nil as transport if you don't need to mock HTTP responses in this test
 	client := MockClientWithTransport(nil)
 
 	historicalData, err := api.GetHistoricalData(client, "NSE:SBIN-EQ", "2021-01-01", "2021-01-02", logger)
